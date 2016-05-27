@@ -1,0 +1,35 @@
+{
+  "name": "cpr-tooltip",
+  "version": "1.0.0",
+  "description": "A React component for tooltips",
+  "main": "lib/cpr-tooltip",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CanopyTax/cpr-tooltip.git"
+  },
+  "keywords": [
+    "react",
+    "tooltip",
+    "canopy"
+  ],
+  "author": "Joel Denning",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CanopyTax/cpr-tooltip/issues"
+  },
+  "homepage": "https://github.com/CanopyTax/cpr-tooltip#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "react": ">=15"
+  }
+}
