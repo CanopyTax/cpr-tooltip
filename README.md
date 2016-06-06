@@ -2,6 +2,10 @@
 a React tooltip for heart-threatening situations
 
 ## Usage
+```bash
+npm install --save cpr-tooltip
+```
+
 ```js
 import CprTooltip from 'cpr-tooltip';
 
