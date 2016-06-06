@@ -15,6 +15,7 @@ export default function MyComponent() {
         This is the content that will have a tooltip when hovered.
       </div>
     </CprTooltip>
+  );
 }
 ```
 
