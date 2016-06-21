@@ -24,6 +24,10 @@ export default class CprTooltip extends React.Component {
 			updateTooltip.call(this);
 		}
 
+		if (this.props.disabled) {
+			cleanupTooltip.call(this);
+		}
+
 		return children;
 	}
 
@@ -59,7 +63,7 @@ function ensureEventListeners() {
 }
 
 function mousedOver() {
-	if (!this.timeout) {
+	if (!this.timeout && !this.props.disabled) {
 		this.timeout = setTimeout(() => {
 			this.timeout = null;
 
