@@ -106,9 +106,8 @@ function updateTooltip() {
 		leftPos -= pixelsOffRightScreen;
 	}
 
-	const pixelsBelowScreen = -1 * (window.innerHeight - topPos - height);
-	if (pixelsBelowScreen > 0) {
-		topPos -= Math.max(0, pixelsBelowScreen + 40);
+	if (topPos + height > window.innerHeight) {
+		topPos = topPos - (height + 40);
 	}
 
 	tooltipEl.style.left = `${leftPos}px`;
