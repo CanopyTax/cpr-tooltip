@@ -1,6 +1,6 @@
 {
   "name": "cpr-tooltip",
-  "version": "1.1.0",
+  "version": "1.1.1-alpha",
   "description": "A React component for tooltips",
   "main": "lib/cpr-tooltip",
   "scripts": {
@@ -29,7 +29,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": ">=15"
   }
 }
