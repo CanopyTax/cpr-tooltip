@@ -94,6 +94,8 @@ function updateTooltip() {
 	tooltipEl.style.zIndex = '100000';
 	tooltipEl.style.maxWidth = '340px';
 	tooltipEl.style.maxHeight = '340px';
+	tooltipEl.style.overflow = 'hidden';
+	tooltipEl.style.whitespace = 'nowrap';
 	tooltipEl.style.textOverflow = 'ellipsis';
 
 	const rect = targetEl.getBoundingClientRect();
