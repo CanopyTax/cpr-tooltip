@@ -92,6 +92,9 @@ function updateTooltip() {
 	tooltipEl.style.borderRadius = '2px';
 	tooltipEl.style.boxShadow = '0 1px 4px 0 rgba(0, 0, 0, .26)';
 	tooltipEl.style.zIndex = '100000';
+	tooltipEl.style.maxWidth = '340px';
+	tooltipEl.style.maxHeight = '340px';
+	tooltipEl.style.textOverflow = 'ellipsis';
 
 	const rect = targetEl.getBoundingClientRect();
 
