@@ -87,7 +87,7 @@ function updateTooltip() {
 	tooltipEl.style.backgroundColor = '#777';
 	tooltipEl.style.fontSize = '12px';
 	tooltipEl.style.padding = '4px 8px';
-	tooltipEl.style.position = 'absolute';
+	tooltipEl.style.position = 'fixed';
 	tooltipEl.style.color = 'white';
 	tooltipEl.style.borderRadius = '2px';
 	tooltipEl.style.boxShadow = '0 1px 4px 0 rgba(0, 0, 0, .26)';
