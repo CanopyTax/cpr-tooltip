@@ -92,6 +92,9 @@ function updateTooltip() {
 	tooltipEl.style.borderRadius = '2px';
 	tooltipEl.style.boxShadow = '0 1px 4px 0 rgba(0, 0, 0, .26)';
 	tooltipEl.style.zIndex = '100000';
+	if (this.props.width) {
+		tooltipEl.style.width = width;
+	}
 
 	const rect = targetEl.getBoundingClientRect();
 
